@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Audio Previews</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 10px;
+      text-align: center;
+      width: 200px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .download-btn {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 3px #1c7430;
+    }
+
+    .download-btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Movie Card 1 -->
+    <div class="card">
+      <img src="Screenshot 2025-06-11 171843.png" alt="HIT Poster">
+      <audio controls>
+        <source src="HIT 3 - Prema Velluva BGM.mp3" type="audio/mpeg">
+      </audio>
+      <a href="HIT 3 - Prema Velluva BGM.mp3" class="download-btn" download>⬇ DOWNLOAD</a>
+    </div>
+
+    <!-- Movie Card 2 -->
+    <div class="card">
+      <img src="images (3).jpeg" width="200"alt="Darling Poster">
+      <audio controls>
+        <source src="gulabi-kallu-rendu-9095.mp3" type="audio/mpeg">
+      </audio>
+      <a href="gulabi-kallu-rendu-9095.mp3"class="download-btn" download>⬇ DOWNLOAD</a>
+    </div>
+
+    <!-- Movie Card 3 -->
+    <div class="card">
+      <img src="RRR_Poster.jpg" alt="Srikaram Poster">
+      <audio controls>
+        <source src="dosthi_rrr.mp3" type="audio/mpeg">
+      </audio>
+      <a href="dosthi_rrr.mp3" class="download-btn" download>⬇ DOWNLOAD</a>
+    </div>
+
+    <!-- Movie Card 4 -->
+    <div class="card">
+      <img src="images.jpeg" alt="Orange Poster" width="200" height="500">
+      <audio controls>
+        <source src="_Roba_Roba_Song_Orange_Movie_Ringtone_(by Fringster.com).mp3" type="audio/mpeg">
+      </audio>
+      <a href="_Roba_Roba_Song_Orange_Movie_Ringtone_(by Fringster.com).mp3" class="download-btn" download>⬇ DOWNLOAD</a>
+    </div>
+
+  </div>
+</body>
+</html>
